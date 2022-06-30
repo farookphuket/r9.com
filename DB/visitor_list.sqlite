@@ -1,0 +1,82 @@
+ 
+/* ========================== Backup Visitor List =============================
+ * on 2007-10-10 16:58:02 pm
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Chrome 101.0.0.0',
+    'WebKit',
+    '2007-10-10 16:58:02',
+    '2007-10-10 16:58:02');
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* ========================== Backup Visitor List =============================
+ * on 2022-06-27 17:15:26 pm
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Firefox 101.0',
+    '0',
+    '2022-06-27 17:15:26',
+    '2022-06-27 17:15:26');
+  
+/* ========================== Backup Visitor List =============================
+ * on 2022-06-27 18:23:12 pm
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Chrome 97.0.4692.71',
+    'WebKit',
+    '2022-06-27 18:23:12',
+    '2022-06-27 18:23:12');
+  
+/* ========================== Backup Visitor List =============================
+ * on 2022-06-28 00:39:07 am
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Chrome 97.0.4692.71',
+    'WebKit',
+    '2022-06-28 00:39:07',
+    '2022-06-28 00:39:07');
+  
+/* ========================== Backup Visitor List =============================
+ * on 2022-06-29 02:47:08 am
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Chrome 97.0.4692.71',
+    'WebKit',
+    '2022-06-29 02:47:08',
+    '2022-06-29 02:47:08');
+  
+/* ========================== Backup Visitor List =============================
+ * on 2022-06-30 00:43:39 am
+ * */
+INSERT INTO `visitors`(`ip`,`os`,`browser`,`device`,`created_at`,
+`updated_at`) VALUES(
+    '127.0.0.1',
+    'Linux ',
+    'Chrome 97.0.4692.71',
+    'WebKit',
+    '2022-06-30 00:43:39',
+    '2022-06-30 00:43:39');
+ 

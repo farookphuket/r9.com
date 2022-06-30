@@ -1,0 +1,64 @@
+
+
+#app .wrapper main .container > .post-thumbnail{
+    margin-bottom:45px;
+}
+
+label.checkbox{
+    font-size:1.5rem;
+}
+
+.video-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+input[type=checkbox]{
+/* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  margin-right:0.7em;
+}
+
+#app .wrapper main{
+    margin-top:4rem;
+    padding:1.5rem;
+
+}
+
+@media (max-width:768px){
+
+    #app .wrapper main .container .post-thumbnail .columns.is-mobile.is-multiline > .column.is-post-list {
+        flex:none;
+        width:100%;
+    }
+
+    #app .wrapper main .container .post-thumbnail 
+    div > form > div.is-post-list .columns{
+        display:block;
+    }
+
+    #app .wrapper footer .content > div.is-foot.columns.is-mobile,.column{
+        flex:none;
+
+    }
+
+}
