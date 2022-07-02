@@ -3,16 +3,21 @@ import axios from 'axios'
 
 import {useCookies} from 'vue3-cookies'
 
-export default function useWhatup(){
-    const {cookies} = useCookies()
-    const perpage = ref('')
-    const whatups = ref('')
 
-    // single item
+
+
+export default function useWhatup(){
+
+    const {cookies} = useCookies()
+
+    const perpage = ref('')
+
     const whatup = ref('')
+    const whatupSingle = ref('')
 
     const getWhatup = async (page) => {
-        let url = ""
+        let url = ''
+
         if(page){
             url = `${page}&perpage=${perpage.value}`
             cookies.set('wp_old_page',url)
@@ -20,20 +25,21 @@ export default function useWhatup(){
         url = cookies.get('wp_old_page')
         if(!url) url = `/api/whatup?perpage=${perpage.value}`
         let res = await axios.get(url)
-        whatups.value = res.data.whatup
+        whatup.value = res.data.whatup
     }
 
-    const getSingleWhatup = async (id) => {
+    const getWhatupSingle = async (id) => {
         let url = `/api/whatup/${id}`
         let res = await axios.get(url)
-        whatup.value = res.data.whatup
+        whatupSingle.value = res.data.whatup
     }
 
     return{
         perpage,
+        whatup,
         getWhatup,
-        whatups,
-        getSingleWhatup,
-        whatup
+        getWhatupSingle,
+        whatupSingle
     }
 }
+

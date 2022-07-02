@@ -4849,9 +4849,207 @@ INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
     '2022-06-24 22:23:30');
 
 
+/* ============================ INSERT ===================================
+ * on 2022-06-27 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันจันทร์ที่ ๒๗ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันจันทร์ที่ ๒๗ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนมิถุนายน พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jun-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันจันทร์ที่ ๒๗ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" src="https://www.youtube.com/embed/U1KUBBTGn3Y" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันจันทร์ที่ ๒๗ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from https://www.youtube.com
+    </p>
+
+    <div class="video-container">
+        <iframe  
+        title="รายการฟ้าทะลายโจร วันจันทร์ที่ ๒๗ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" 
+        src="https://archive.org/download/kob-jun-2022/016_kob_27-jun-2022.mp4" 
+        allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันจันทร์ที่ ๒๗ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-06-27 22:23:30',
+    '2022-06-27 22:23:30');
+
+
+/* ============================ INSERT ===================================
+ * on 2022-06-28 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันอังคารที่ ๒๘ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันอังคารที่ ๒๘ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนมิถุนายน พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jun-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันอังคารที่ ๒๘ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" 
+        src="https://www.youtube.com/embed/Pu02g-VwrVg"  frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันอังคารที่ ๒๘ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from https://www.youtube.com
+    </p>
+
+    <div class="video-container">
+        <iframe  
+        title="รายการฟ้าทะลายโจร วันอังคารที่ ๒๘ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" 
+        src="https://archive.org/download/kob-jun-2022/017_kob_28-jun-2022.mp4" 
+        allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันอังคารที่ ๒๘ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-06-28 22:23:30',
+    '2022-06-28 22:23:30');
+
+
+/* ============================ INSERT ===================================
+ * on 2022-06-29 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันพุธที่ ๒๙ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันพุธที่ ๒๙ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนมิถุนายน พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jun-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันพุธที่ ๒๙ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" src="https://www.youtube.com/embed/kgYyRFdYIN8"  
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพุธที่ ๒๙ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from https://www.youtube.com
+    </p>
+
+    <div class="video-container">
+        <iframe  
+        title="รายการฟ้าทะลายโจร วันพุธที่ ๒๙ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" 
+        src="https://archive.org/download/kob-jun-2022/018_kob_29-jun-2022.mp4" 
+        allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพุธที่ ๒๙ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-06-29 22:23:30',
+    '2022-06-29 22:23:30');
+
+
+/* ============================ INSERT ===================================
+ * on 2022-06-30 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๓๐ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๓๐ เดือนมิถุนายน พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนมิถุนายน พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jun-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๓๐ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" src="https://www.youtube.com/embed/hVUtb5eNLjY" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๓๐ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from https://www.youtube.com
+    </p>
+
+    <div class="video-container">
+        <iframe  
+        title="รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๓๐ เดือนมิถุนายน พ.ศ.๒๕๖๕"
+        width="560" height="315" 
+        src="https://archive.org/download/kob-jun-2022/019_kob_30-jun-2022_720.mp4" 
+        allowfullscreen></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๓๐ เดือนมิถุนายน พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-06-30 22:23:30',
+    '2022-06-30 22:23:30');
+
+
 
 /*
 ===============================================================================
 /////////////////  END OF Jun  2022         ///////////////////////////////////
 ===============================================================================
 */
+ 

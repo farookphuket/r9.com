@@ -35,6 +35,15 @@
             </span>
 
 
+            <span v-if="is_login === false">
+                <router-link class="navbar-item is-uppercase  has-text-weight-bold" 
+                             :to="{name:'Login'}">Login</router-link>
+            </span>
+            <span v-else>
+                <router-link class="navbar-item is-uppercase  
+                             has-text-weight-bold has-text-danger" 
+                             :to="{name:'Logout'}">Logout</router-link>
+            </span>
 
         </nav>
       </div>
@@ -56,6 +65,7 @@ onMounted(() => {
 
 
 const isActive = ref(false)
+const prop = defineProps(["is_login","is_member","is_admin"])
 
 const close = () => {
     isActive.value = false

@@ -13,13 +13,13 @@ import {ref,onMounted} from 'vue'
 import useWhatup from '../../../composable/useWhatup.js'
 import WhatupList from './WhatupList.vue'
 
-const {getWhatup,whatups,perpage} = useWhatup()
+const {getWhatup,whatup,perpage} = useWhatup()
 const wpList = ref('')
 
 const wp = async (page) => {
     perpage.value = 30
     await getWhatup(page)
-    wpList.value = whatups._rawValue 
+    wpList.value = whatup._rawValue 
 }
 
 const openMe = async (id) => {

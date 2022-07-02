@@ -260,7 +260,17 @@ Success your post has been updated</span>";
      */
     public function destroy(Whatup $whatup)
     {
-        
+        // fine the delete target
+        $del = Whatup::find($whatup->id);
+
+        // unlink the upload pic 
+        if(file_exists(public_path($del->wp_cover))):
+            // delete the old file 
+            unlink(public_path($del->wp_cover));
+        endif;
+
+        $del->delete();
+
         $msg = "Success your post has been deleted";
 
         return response()->json([
