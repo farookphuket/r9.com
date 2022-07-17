@@ -5053,3 +5053,415 @@ INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
 ===============================================================================
 */
  
+
+
+/*
+===============================================================================
+/////////////////  START  OF Jul  2022      ///////////////////////////////////
+===============================================================================
+*/
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-01 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันศุกร์ที่ ๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันศุกร์ที่ ๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันศุกร์ที่ ๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" style="border: none;" 
+        src="https://www.bitchute.com/embed/7d0Lv9TjLE9A/"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันศุกร์ที่ ๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันศุกร์ที่ ๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕" 
+        src="https://archive.org/download/kob-jul-2022/001_kob_1-jul-2022.mp4" 
+        width="560" height="315" frameborder="0"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันศุกร์ที่ ๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-01 22:23:30',
+    '2022-07-01 22:23:30');
+
+
+
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-04 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันจันทร์ที่ ๔ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันจันทร์ที่ ๔ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe width="640" height="360" scrolling="no" frameborder="0" 
+        title="รายการฟ้าทะลายโจร วันจันทร์ที่ ๔ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        style="border: none;" 
+        src="https://www.bitchute.com/embed/EvXfzeBzZZRT/"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันจันทร์ที่ ๔ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันจันทร์ที่ ๔ เดือนกรกฎาคม พ.ศ.๒๕๖๕" 
+        src="https://archive.org/download/kob-jul-2022/002_kob_4-jul-2022.mp4" 
+        width="560" height="315" frameborder="0"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันจันทร์ที่ ๔ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-04 22:23:30',
+    '2022-07-04 22:23:30');
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-05 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันอังคารที่ ๕ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันอังคารที่ ๕ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe width="640" height="360" scrolling="no" frameborder="0" 
+        title="รายการฟ้าทะลายโจร วันอังคารที่ ๕ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        style="border: none;" 
+        src="https://www.bitchute.com/embed/9dNTpwDkBHD3/"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันอังคารที่ ๕ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันอังคารที่ ๕ เดือนกรกฎาคม พ.ศ.๒๕๖๕" 
+        src="https://archive.org/download/kob-jul-2022/003_kob_5-jul-2022.mp4" 
+        width="560" height="315" frameborder="0"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันอังคารที่ ๕ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-05 22:23:30',
+    '2022-07-05 22:23:30');
+
+/* ============================ INSERT ===================================
+ * on 2022-07-06 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันพุธที่ ๖ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันพุธที่ ๖ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe width="640" height="360" scrolling="no" frameborder="0" 
+        title="รายการฟ้าทะลายโจร วันพุธที่ ๖ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        style="border: none;" 
+        src="https://www.bitchute.com/embed/9I9RgeejcfPB/"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพุธที่ ๖ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันพุธที่ ๖ เดือนกรกฎาคม พ.ศ.๒๕๖๕" 
+        src="https://archive.org/download/kob-jul-2022/004_kob_6-jul-2022.mp4" 
+        width="560" height="315" frameborder="0"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพุธที่ ๖ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-06 22:23:30',
+    '2022-07-06 22:23:30');
+
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-07 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๗ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๗ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe width="640" height="360" scrolling="no" frameborder="0" 
+        title="รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๗ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        style="border: none;" 
+        src="https://www.bitchute.com/embed/XsFuN9aOPWho/"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๗ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๗ เดือนกรกฎาคม พ.ศ.๒๕๖๕" 
+        src="https://archive.org/download/kob-jul-2022/005_kob_7-jul-2022.mp4" 
+        width="560" height="315" frameborder="0"></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันพฤหัสบดีที่ ๗ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-07 20:23:30',
+    '2022-07-07 20:23:30');
+
+
+
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-08 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันศุกร์ที่ ๘ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันศุกร์ที่ ๘ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันศุกร์ที่ ๘ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" 
+        style="border: none;" 
+        src="https://www.bitchute.com/embed/2RTvgjGReZyR/"
+        ></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันศุกร์ที่ ๘ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันศุกร์ที่ ๘ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" 
+        style="border: none;" 
+        src="https://archive.org/download/kob-jul-2022/006_kob_8-jul-2022.mp4" 
+        ></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันศุกร์ที่ ๘ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-08 20:23:30',
+    '2022-07-08 20:23:30');
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-11 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันจันทร์ที่ ๑๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันจันทร์ที่ ๑๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันจันทร์ที่ ๑๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" 
+        style="border: none;" 
+        src="https://www.bitchute.com/video/ufnXOCbu0zyv/"
+        ></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันจันทร์ที่ ๑๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันจันทร์ที่ ๑๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" 
+        style="border: none;" 
+        src="https://archive.org/download/kob-jul-2022/007_kob_11-jul-2022.mp4"
+        ></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันจันทร์ที่ ๑๑ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-11 20:23:30',
+    '2022-07-11 20:23:30');
+
+
+
+
+/* ============================ INSERT ===================================
+ * on 2022-07-12 23:23:30
+ * */
+INSERT INTO `whatups`(`user_id`,`is_public`,`wp_title`,`wp_cover`,
+`wp_excerpt`,`wp_body`,`created_at`,`updated_at`) VALUES(
+    '1',
+    '1',
+    'รายการฟ้าทะลายโจร วันอังคารที่ ๑๒ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    'https://archive.org/download/far-taluy-jon_cover/far-taluy-jon_cover.png',
+    'รายการฟ้าทะลายโจร วันอังคารที่ ๑๒ เดือนกรกฎาคม พ.ศ.๒๕๖๕',
+    '<div class="content">
+    <p class="pb-4">
+     หากต้องการดูรายการย้อนหลังทั้งเดือนของ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+     <span class="p-2 has-text-success">
+         <a href="https://see-southern.com/รายการฟ้าทะลายโจร-jul-2022"
+         target="_blank"
+         class="button is-link is-rounded">
+             คลิกเลย
+         </a>
+     </span>
+    </p>
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันอังคารที่ ๑๒ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" 
+        style="border: none;" 
+        src="https://www.bitchute.com/video/WM7CzHQ4amc1/"
+        ></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันอังคารที่ ๑๒ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from https://www.bitchute.com
+    </p>
+
+    <div class="video-container">
+        <iframe 
+        title="รายการฟ้าทะลายโจร วันอังคารที่ ๑๒ เดือนกรกฎาคม พ.ศ.๒๕๖๕"
+        width="640" height="360" scrolling="no" frameborder="0" 
+        style="border: none;" 
+        src="https://archive.org/download/kob-jul-2022/008_kob_12-jul-2022.mp4"
+        ></iframe>
+    </div>
+    <p class="pt-2 has-text-centered">
+        รายการฟ้าทะลายโจร วันอังคารที่ ๑๒ เดือนกรกฎาคม พ.ศ.๒๕๖๕
+        from archive.org
+    </p>
+</div>',
+    '2022-07-12 20:23:30',
+    '2022-07-12 20:23:30');
+
+
+
+
+/*
+===============================================================================
+/////////////////  END OF Jul  2022         ///////////////////////////////////
+===============================================================================
+*/

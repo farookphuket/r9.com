@@ -11,6 +11,10 @@ use App\Http\Controllers\Member\ProfileController as Profile;
 use App\Http\Controllers\WhatupController as Whatup;
 use App\Http\Controllers\VisitorController as Visitor;
 use App\Http\Controllers\PostController as Post;
+
+use App\Http\Controllers\CommentController as Comment;
+use App\Http\Controllers\ReplyController as Reply;
+
 use App\Http\Controllers\StaticPageController as STPage;
 
 use App\Http\Controllers\UserController as User;
@@ -33,6 +37,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 // static page 
 Route::get('/about-us',[STPage::class,'about'])->name('about');
+
+// comment 
+Route::get('/comment',[Comment::class,'index']);
+
+// comment post 
+Route::get('/get-post-comment',[Comment::class,"commentPost"])
+    ->name("commentPost");
 
 /* ===================== Register Route START ===============================*/
 // get your friend
@@ -78,6 +89,13 @@ Route::prefix("member")->name("member.")->middleware('auth:sanctum')
 
     // whatup
     Route::resource('/whatup',Whatup::class);
+
+    // comment 
+    Route::resource('/comment',Comment::class);
+
+
+    // comment 
+    Route::resource('/reply',Reply::class);
 
     // post 
     Route::resource('/post',Post::class);

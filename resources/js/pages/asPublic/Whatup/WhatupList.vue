@@ -20,7 +20,11 @@
                     <div class="media">
                       <div class="media-content">
                         <p class="title is-4">
-                            {{tT.smartTitle(w.wp_title,28)}}
+                            <a href="" 
+                                :title="w.wp_title" 
+                                @click.prevent="emit('openMe',w.id)">
+                                {{tT.smartTitle(w.wp_title,28)}}
+                            </a>
                         </p>
                         <p class="subtitle is-6">@{{w.user.name}}</p>
                       </div>
@@ -39,7 +43,9 @@
                                 <span>
                                     {{moment(w.created_at).format("YYYY-MMM-DD HH:mm:ss")}}
                                 </span>
-
+                                <span class="ml-2">
+                                    {{moment(w.created_at).fromNow()}}
+                                </span>
                             </p>
                         </div>
                         <div class="level-right">

@@ -28,6 +28,11 @@
                 <router-link class="navbar-item is-uppercase  has-text-weight-bold" 
                              :to="{name:'About'}">about</router-link>
             </span>
+
+            <span>
+                <router-link class="navbar-item is-uppercase  has-text-weight-bold" 
+                             :to="{name:'AdminComment'}">comment</router-link>
+            </span>
             <span>
                 <router-link class="navbar-item is-uppercase  has-text-weight-bold" 
                              :to="{name:'AdminPost'}">blog</router-link>

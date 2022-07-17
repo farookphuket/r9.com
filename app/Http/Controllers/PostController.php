@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\Comment;
 use Illuminate\Http\Request;
 use Auth;
 
@@ -29,6 +30,7 @@ class PostController extends Controller
             // root will get all post 
             $post = Post::latest()
                     ->with("read")
+                    ->with('comment')
                     ->paginate($perpage); 
 
         elseif(Auth::user()):
@@ -36,10 +38,11 @@ class PostController extends Controller
                         ->orWhere('user_id',Auth::user()->id)
                         ->latest()
                         ->with("read")
+                        ->with("comment")
                         ->paginate($perpage);
         else:
             $post = Post::where('is_public','!=',0)
-
+                    ->with('comment')
                     ->latest()
                     ->with("read")
                     ->paginate($perpage);
@@ -183,14 +186,31 @@ Success! your post has been created.
     {
         $p = Post::where('slug',$slug)
                     ->with("read")
+                    ->with("comment")
                     ->first();
 
         // read count
         Post::hasRead($p->id);
 
+
+        $comm = $this->getCommentPost($p->id);
+        $re = Comment::postCommentWithReply($p->id);
+
         return response()->json([
-            "post" => $p
+            "post" => $p,
+            "comment" => $comm,
+            "reply" => $re
         ]);
+    }
+
+    public function getCommentPost($id){
+        $perpage = request()->perpage;
+
+        $po = Post::find($id)
+                ->comment()
+                ->paginate($perpage);
+        return $po;
+                
     }
 
     /**

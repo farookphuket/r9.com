@@ -33,6 +33,10 @@ class Post extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function comment(){
+        return $this->belongsToMany(Comment::class)->orderBy("created_at","DESC");
+    }
+
     public function read(){
         return $this->belongsToMany(Read::class);
     }

@@ -54,9 +54,8 @@
 
 // get the post list 
 const gP = async (page) =>{
-    perpage.value = 3
+    perpage.value = 30
     await getPost(page)
-
 }
 
     const editId = ref(0)

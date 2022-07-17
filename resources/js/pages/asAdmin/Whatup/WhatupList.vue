@@ -20,7 +20,26 @@
                           <p class="title is-4">
                               {{title.smartTitle(wp.wp_title,16)}}
                           </p>
-                          <p class="subtitle is-6">@{{wp.user.name}}</p>
+
+                            <nav class="level">
+                                <div class="level-left">
+                                    <p 
+                                        class="subtitle is-6">
+                                        @{{wp.user.name}}</p>
+                                </div>
+                                <div class="level-right">
+                                    <p>
+                                        <span class="mr-2">
+                                            <font-awesome-icon 
+                                                icon="eye"></font-awesome-icon>
+                                        </span>
+                                        <span>
+                                            {{Object.values(wp.read).length}}
+                                        </span>
+                                    </p>
+                                </div>
+                            </nav>
+                          
                       </div>
                     </div>
                     <p>
@@ -28,12 +47,19 @@
                     </p>
                     <div class="content">
 
+                    <p>
+                        <span class="mr-2">
+                            <font-awesome-icon 
+                                icon="calendar-week"></font-awesome-icon>
+                        </span>
                         <span class="mr-2">
                             {{moment(wp.created_at).format("YYYY-MM-DD H:m:s")}}
                         </span>
                         <span>
                             {{moment(wp.created_at).fromNow()}}
                         </span>
+                    </p>
+
                     </div>
 
                   </div>

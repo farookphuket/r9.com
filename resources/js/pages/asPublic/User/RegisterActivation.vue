@@ -22,7 +22,7 @@ const getActive = async () => {
     let url = `/api/activate-user/${route.params.token}`
     let res = await axios.get(url)
     res_status.value = res.data.msg
-    console.log(res)
+    //console.log(res)
 }
 
 

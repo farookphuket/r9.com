@@ -46,15 +46,15 @@ import {ref,onMounted} from 'vue'
 import {useRoute} from 'vue-router'
 import useWhatup from '../../../composable/useWhatup.js'
 import moment from 'moment'
-const {getSingleWhatup,whatup} = useWhatup()
+const {getWhatupSingle,whatupSingle} = useWhatup()
 const route = useRoute()
 const owner = ref('')
 
 const wP = ref('')
 const read_count = ref(0)
 const getPage = async () => {
-    await getSingleWhatup(route.params.id)
-    let rData = whatup._rawValue
+    await getWhatupSingle(route.params.id)
+    let rData = whatupSingle._rawValue
 
     wP.value = rData
     read_count.value = Object.values(rData.read).length

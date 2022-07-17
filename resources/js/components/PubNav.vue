@@ -24,6 +24,12 @@
                 <router-link class="navbar-item is-uppercase has-text-weight-bold" 
                              :to="{name:'Home'}">home</router-link>
             </span>
+
+            <span>
+                <router-link class="navbar-item is-uppercase  has-text-weight-bold" 
+                             :to="{name:'Blog'}">blog</router-link>
+            </span>
+
             <span>
                 <router-link class="navbar-item is-uppercase  has-text-weight-bold" 
                              :to="{name:'About'}">about</router-link>

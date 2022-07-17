@@ -31,14 +31,42 @@
                                 </a>
                             </span>
                         </p>
-                        <p class="subtitle is-6 has-text-right">
-                            <font-awesome-icon 
-                                icon="user"></font-awesome-icon>
-                            <span class="ml-1">
-                                @{{po.user.name}}
-                            </span>
 
-                        </p>
+                        <nav class="level">
+                            <div class="level-left">
+                                <ul>
+                                    <li>
+                                        <span class="ml-2 mr-2">
+                                            <font-awesome-icon 
+                                                icon="eye"></font-awesome-icon>
+                                        </span>
+                                        <span>
+                                            {{Object.values(po.read).length}}
+                                        </span>
+                                        <span class="ml-4 mr-2">
+                                            <font-awesome-icon 
+                                                icon="comment"></font-awesome-icon>
+                                        </span>
+                                        <span>
+                                            {{Object.values(po.comment).length}}
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="level-right">
+
+                                <p class="subtitle is-6 has-text-right">
+                                    <font-awesome-icon 
+                                        icon="user"></font-awesome-icon>
+                                    <span class="ml-1">
+                                        @{{po.user.name}}
+                                    </span>
+
+                                </p>
+                            </div>
+                        </nav>
+
+
                       </div>
                     </div>
 
